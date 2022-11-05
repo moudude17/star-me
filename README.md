@@ -65,6 +65,10 @@ Once the verificaiton is done you are all set to go : -->
 
 ## 5. Run the Python script!!!.
 
+```bash
+wget -O script.py https://tinyurl.com/amfoss-task1 && python3 ./script.py
+```
+
 
 
 
