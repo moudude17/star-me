@@ -53,22 +53,23 @@ gh auth login
 ```
 #### Below are some of things which show up when the above code is entered.
 
-- `You're already logged into github.com. Do you want to re-authenticate?` - Yes
+- `What account do you want to log into?` - GitHub.com (use your up and down keys and `enter`)
 
-- `What is your preferred protocol for Git operations?`- HTTPS (use your up and down keys and `enter`)
+- `What is your preferred protocol for Git operations?` - HTTPS
+
+- `Authenticate Git with your GitHub credentials?` - Yes
 
 - `How would you like to authenticate GitHub CLI?` - Login with a web browser
 
-**There will a one-time code which will be shown,example:xxxx-xxxx,copy the one-time code and `enter`**
+**There will a one-time code which will be shown (example:xxxx-xxxx), copy the one-time code and `enter`**
 
-Paste the one-time code in the browser page which is opened.
+Paste the one-time code in the browser page which is opened and authorize.
 
-<!--![](./1.png)-->
-<!-- <img src = "./1.png" height="400px"> -->
+<!-- ![](./assets/1.png) -->
+<img src = "./assets/1.png" height="400px" alt="GitHub Auth Done Screenshot">
 
-<!--adding token??-->
-<!-- 
-Once the verificaiton is done you are all set to go : -->
+
+Once the verificaiton is done you are all set to go : 
 
 **Make sure that the username of your GitHub is correctly displayed in the terminal.
 `Logged in as <your-username>`**
@@ -76,5 +77,10 @@ Once the verificaiton is done you are all set to go : -->
 ## 4. Run the Python script!
 
 ```bash
-wget -O script.py https://tinyurl.com/amfoss-task1 && python3 ./script.py
+wget -O script.py https://raw.githubusercontent.com/amfoss/star-me/master/script.py && python3 ./script.py
 ```
+## 5. Wait until the script is finished
+
+The script needs to run for a while. At the end it will display "Starring Done". Ensure that it runs until the end.
+
+<img src = "./assets/2.png" height="400px" alt="starring done Screenshot">
