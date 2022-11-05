@@ -1,4 +1,3 @@
-
 import subprocess
 import json
 
@@ -17,11 +16,14 @@ try:
         print(f"Starring amfoss/{repo}")
         subprocess.getstatusoutput(stringS)
 
-    user = subprocess.getstatusoutput(f'git config user.name')
+    userData = subprocess.getstatusoutput(f'gh api -H "Accept: application/vnd.github+json" /user')
+    user=json.loads(userData[1])
+    userName=user['name']
+    userLogin=user['login']
 
     print(f'''
 
-    Thank you {user[1]} for starring all the amFOSS repositories.
+    Thank you {userName} (@{userLogin}) for starring all the amFOSS repositories.
      ____  _                  _               ____                   
     / ___|| |_ __ _ _ __ _ __(_)_ __   __ _  |  _ \  ___  _ __   ___ 
     \___ \| __/ _` | '__| '__| | '_ \ / _` | | | | |/ _ \| '_ \ / _ \\
