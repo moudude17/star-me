@@ -83,4 +83,4 @@ wget -O script.py https://raw.githubusercontent.com/amfoss/star-me/master/script
 
 The script needs to run for a while. At the end it will display "Starring Done". Ensure that it runs until the end.
 
-<img src = "./assets/2.png" height="400px" alt="starring done Screenshot">
+<img src = "./assets/0.png" height="400px" alt="starring done Screenshot">
