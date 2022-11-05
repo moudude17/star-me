@@ -1,4 +1,4 @@
-# Star-me amFOSS
+# :star2: Star-me amFOSS
 
 #### Starring is fun! 
 
@@ -6,18 +6,24 @@
 
 
 
-# Steps
+# :ledger: Steps
 
-## 1.Sign In
+## 1. Sign In
 
-Make sure that you are signed up in *GitHub* account , if not do so now !
+Make sure that you are signed up in your *GitHub* account on the default browser, if not do so now !
 
 <!-- add any reference where they could installed git and all-->
 
-## 2.Installing `gh`
+## 2. Installing `gh`
 
-### Linux:
+### Debian & Ubuntu:
 
+Resynchronize the package index files :
+```bash
+sudo apt update
+```
+
+Install gh :
 ```bash
 sudo apt install gh
 ```
@@ -32,9 +38,13 @@ Installing through Homebrew :
 ```bash
 brew install gh
 ```
-For more details check [Link](https://cli.github.com/manual/installation)
 
-## 3.Setup:
+**Note:** MacOS users may also need to install [wget](https://formulae.brew.sh/formula/wget), if not already present.
+
+### Other Linux distributions:
+For more details check [Link](https://github.com/cli/cli/blob/trunk/docs/install_linux.md).
+
+## 3. Setup:
 
 **Make sure that you have installed `gh` successfully in your pc before starting this step**
 
@@ -45,7 +55,7 @@ gh auth login
 
 - `You're already logged into github.com. Do you want to re-authenticate?` - Yes
 
-- `What is your preferred protocol for Git operations?`- HTTPS(use your up and down keys and `enter`)
+- `What is your preferred protocol for Git operations?`- HTTPS (use your up and down keys and `enter`)
 
 - `How would you like to authenticate GitHub CLI?` - Login with a web browser
 
@@ -63,12 +73,8 @@ Once the verificaiton is done you are all set to go : -->
 **Make sure that the username of your GitHub is correctly displayed in the terminal.
 `Logged in as <your-username>`**
 
-## 5. Run the Python script!!!.
+## 4. Run the Python script!
 
 ```bash
 wget -O script.py https://tinyurl.com/amfoss-task1 && python3 ./script.py
 ```
-
-
-
-
