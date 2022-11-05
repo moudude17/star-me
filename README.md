@@ -1,8 +1,8 @@
 # Star-me amFOSS
 
-<!-- #### Starring is fun! -->
+#### Starring is fun! 
 
-<!-- #### The script in this repository connects developers automatically with FOSS@Amrita projects on GitHub. You just need to run this script..... -->
+#### The script in this repository connects developers automatically with FOSS@Amrita projects on GitHub. You just need to run this script.
 
 
 
@@ -10,7 +10,7 @@
 
 ## 1.Sign In
 
-Make sure that you are signedup in *GitHub* account , if not do so now !
+Make sure that you are signed up in *GitHub* account , if not do so now !
 
 <!-- add any reference where they could installed git and all-->
 
@@ -24,7 +24,7 @@ sudo apt install gh
 
 ### macOS:
 
-`gh` is available via Homebrew and MacPorts.
+`gh` is available via Homebrew.
 
 **Make sure that you have Homebrew installed in your mac to install the below step 👇**
 
@@ -32,14 +32,9 @@ Installing through Homebrew :
 ```bash
 brew install gh
 ```
-<!--Exception down below if not needed remove it-->
+For more details check [Link](https://cli.github.com/manual/installation)
 
-MacPorts:
-```bash
-sudo port install gh
-```
-<!-- add screenshos for them to confirm ??-->
-## 4.Setup:
+## 3.Setup:
 
 **Make sure that you have installed `gh` successfully in your pc before starting this step**
 
@@ -62,8 +57,8 @@ Paste the one-time code in the browser page which is opened.
 <!-- <img src = "./1.png" height="400px"> -->
 
 <!--adding token??-->
-
-Once the verificaiton is done you are all set to go :
+<!-- 
+Once the verificaiton is done you are all set to go : -->
 
 **Make sure that the username of your GitHub is correctly displayed in the terminal.
 `Logged in as <your-username>`**

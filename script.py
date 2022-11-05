@@ -17,9 +17,11 @@ try:
         print(f"Starring amfoss/{repo}")
         subprocess.getstatusoutput(stringS)
 
-    print('''
+    user = subprocess.getstatusoutput(f'git config user.name')
 
+    print(f'''
 
+    Thank you {user[1]} for starring all the amFOSS repositories.
      ____  _                  _               ____                   
     / ___|| |_ __ _ _ __ _ __(_)_ __   __ _  |  _ \  ___  _ __   ___ 
     \___ \| __/ _` | '__| '__| | '_ \ / _` | | | | |/ _ \| '_ \ / _ \\
