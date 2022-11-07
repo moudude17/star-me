@@ -26,6 +26,11 @@ sudo apt update
 Install gh :
 ```bash
 sudo apt install gh
+
+```
+If sudo doesn't work for you, try using this command:
+```
+snap install gh
 ```
 
 ### macOS:
